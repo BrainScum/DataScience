@@ -48,3 +48,11 @@ ye = np.array([[1, 2], [2, 3]])
 ma = np.array([[1, 3], [4, 2]])
 
 print(np.dot(ye, ma))
+
+#np.arange(x, y, z) //creates an array with all values in specified range and increment
+
+#np.random.permutation(np.arange(x, y)) //randomizes the order of an array
+#np.random.randint(x, y)
+#np.random.rand(x, y) //creates multidimensional arrays with specified dimensions
+
+#np.array.reshape(x, y) //creates a matrix with specified rows and columns
